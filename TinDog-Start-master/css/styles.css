@@ -1,0 +1,169 @@
+body {
+  font-family: 'Montserrat';
+}
+#title {
+  background-color: #ff4c68;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  color: #ff4c68;
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+.b1 {
+  margin-top: 55px;
+  /*background-color: white;
+  border: solid;
+  border-color: blue;
+  color: blue;
+  padding: 1% 6%;*/
+}
+.b1:hover {
+  background-color: blue;
+  color: white;
+}
+.b2 {
+  margin-top: 55px;
+  /*background-color: blue;
+  border: solid;
+  border-color: white;
+  color: white;
+  padding: 2% 5%;*/
+}
+/*.b3 {
+  background-color: blue;
+  border: solid;
+  border-color: white;
+  color: white;
+  padding: 2% 5%;
+}*/
+.card {
+  padding: 0 3% 2%;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.navbar {
+  padding-bottom: 1rem;
+}
+.navbar-brand {
+  padding-left: 10px;
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 100;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing {
+  padding: 100px;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.price-down {
+  padding-bottom: 50px;
+}
+.row {
+  padding-top: 2rem;
+}
+.ss {
+  padding-bottom: 10px;
+  color: #ef8172;
+}
+.ss:hover {
+  color: #ff4c68;
+}
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* width consumes the div-grid allocated via bootstrap */
+.title-img {
+  /* the width of this pic had to be reduced to 15% due to change in bootstrap framework in the latest versions */
+  width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 60%;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+}
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+.testimonial-text {
+  color: white;
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8% 3% 4%;
+}
+.last-section {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  color: white;
+  padding-bottom: 25px;
+}
+.r1 {
+  padding: 0 20%;
+}
+#footer {
+  text-align: center;
+}
+.footer-icons {
+  padding-top: 25px;
+}
